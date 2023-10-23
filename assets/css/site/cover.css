@@ -15,6 +15,7 @@
 }
 
 .cover-logo {
+    display: none;
     max-height: 100px;
     margin: 0 auto;
     margin-bottom: 32px;
