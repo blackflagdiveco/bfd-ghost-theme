@@ -1,4 +1,13 @@
 @font-face {
+    font-family: "espiritu";
+    src: local(""), url("../fonts/espiritu-regular.woff2") format("woff2"), url("../fonts/espiritu-regular.woff") format("woff");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+}
+
+@font-face {
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
