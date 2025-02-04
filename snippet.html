@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 100%;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%; /* Creates a square aspect ratio */
+        }
+
+        .image-container img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Crops to center */
+            object-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-grid">
+        <div class="image-container">
+            <img src="img/a.png" alt="Image A">
+        </div>
+        <div class="image-container">
+            <img src="img/b.png" alt="Image B">
+        </div>
+        <div class="image-container">
+            <img src="img/c.png" alt="Image C">
+        </div>
+    </div>
+</body>
+</html>
