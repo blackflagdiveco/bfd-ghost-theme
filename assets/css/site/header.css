@@ -14,6 +14,8 @@
 .gh-head-logo img {
     height: 50px;
     width: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .gh-head-logo span {
