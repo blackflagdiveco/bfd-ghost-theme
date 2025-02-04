@@ -11,15 +11,18 @@
     font-family: "espiritu";
     font-size: 3.2rem;
     text-decoration: none;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.5rem;
+    white-space: nowrap;
 }
 
 .gh-head-logo img {
     height: 50px;
     width: auto;
-    display: block;
+    display: inline-block; /* Ensures it stays aligned */
+    vertical-align: middle;
 }
 
 .gh-head-logo span {
